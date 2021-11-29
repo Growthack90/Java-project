@@ -6,9 +6,9 @@ public class Charizard {
     private String weakness;
 
     // costruttore
-    public Charizard(String name, Integer level, String weakness) {
-        this.name = name;
-        this.level = level;
-        this.weakness = weakness;
+    public Charizard(String theName, Integer theLevel, String theWeakness) {
+        name = theName;
+        level = theLevel;
+        weakness = theWeakness;
     }
 }
