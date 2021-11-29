@@ -5,10 +5,11 @@ public class Charizard {
     private Integer level;
     private String weakness;
 
-    // costruttore
     public Charizard(String theName, Integer theLevel, String theWeakness) {
+        System.out.println("AHHHHHHHHHHHHH");
         name = theName;
         level = theLevel;
         weakness = theWeakness;
+        System.out.println("Ma che nome terribile! Mi chiamo " + theName);
     }
 }
