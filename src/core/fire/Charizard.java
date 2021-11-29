@@ -12,4 +12,11 @@ public class Charizard {
         weakness = theWeakness;
         System.out.println("Ma che nome terribile! Mi chiamo " + theName);
     }
+
+    public Charizard() {
+
+    }
+public Charizard(String name){
+        System.out.println("youhhuhuhuhuh " + name + " cognome");
+}
 }
